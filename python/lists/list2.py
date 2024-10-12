@@ -1,0 +1,15 @@
+heros=['spider man','thor','hulk','iron man','captain america']
+
+print(len(heros))
+heros.append('Black Panther')
+print(heros)
+heros.remove('Black Panther')
+heros.insert(3,'Black Panther')
+print(heros)
+heros.remove('thor')
+heros.remove('hulk')
+heros.insert(1, 'Doctor Strange')
+print(heros)
+print("Sorted list: ")
+heros.sort()
+print(heros)
